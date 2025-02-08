@@ -1,0 +1,179 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.carousel .control-arrow, .carousel.carousel-slider .control-arrow {
+    transition: all .25s ease-in;
+    opacity: .4;
+    filter: alpha(opacity = 40);
+    
+    z-index: 2;
+    top: 20px;
+    background: none;
+    border: 0;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+*, ::before, ::after {
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: #000000;
+}
+
+.carousel * {
+    box-sizing: border-box;
+    
+}
+
+
+
+/* Custom Scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: #1B2440;
+    border-radius: 10px;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #110799, #0b5288);
+    border-radius: 10px;
+    border: 2px solid rgb(109, 109, 109);
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(180deg, #0b5288, #110799);
+  }
+  
+
+  :where(.css-dev-only-do-not-override-7ny38l).ant-select-outlined:not(.ant-select-customize-input) .ant-select-selector {
+    border-bottom: 1px solid #000000;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0px;
+    background: #ffffff;
+    padding: 17px 5px;
+    
+}
+
+:where(.css-dev-only-do-not-override-7ny38l).ant-drawer .ant-drawer-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background: linear-gradient(to top, #05013d, #2E4CB9); /* Gradient color */
+  pointer-events: auto; 
+  color: white;
+}
+
+  /* @keyframes scroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+  
+  .animate-scroll {
+    animation: scroll 15s linear infinite;
+  }
+   */
+
+
+
+
+
+:where(.css-dev-only-do-not-override-7ny38l).ant-collapse-ghost >.ant-collapse-item {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.315);
+    padding-top: 15px;
+    padding-bottom: 10px;
+    
+    
+}
+
+:where(.css-dev-only-do-not-override-7ny38l).ant-collapse>.ant-collapse-item >.ant-collapse-header .ant-collapse-header-text {
+    margin-inline-end: auto;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    
+   
+}
+:where(.css-dev-only-do-not-override-7ny38l).ant-collapse.ant-collapse-icon-position-end>.ant-collapse-item >.ant-collapse-header .ant-collapse-expand-icon {
+    order: 1;
+    padding-inline-end: 0;
+    padding-inline-start: 12px;
+   color: white;
+    background-color: rgba(255, 255, 255, 0.137);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding-left: 18px;
+    margin-top: -8px;
+}
+
+
+:where(.css-dev-only-do-not-override-7ny38l).ant-form-item .ant-form-item-control-input {
+    position: relative;
+    display: flex
+;  
+    align-items: center;
+    min-height: 32px;
+}
+
+:where(.css-dev-only-do-not-override-7ny38l).ant-input-outlined {
+    background: #ffffff;
+    border-width: 1px;
+    border-style: solid;
+    border-bottom: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0px;
+}
+
+:where(.css-dev-only-do-not-override-7ny38l).ant-select-outlined:not(.ant-select-customize-input) .ant-select-selector {
+    border-bottom: 1px solid #000000;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0px;
+    background: #ffffff;
+}
+
+textarea:where(.css-dev-only-do-not-override-7ny38l).ant-input {
+    max-width: 100%;
+    
+    height: 20px;
+    line-height: 1.5714285714285714;
+    vertical-align: bottom;
+    transition: all 0.3s, height 0s;
+    resize: vertical;
+}
+
+:where(.css-dev-only-do-not-override-7ny38l).ant-collapse-ghost >.ant-collapse-item >.ant-collapse-content >.ant-collapse-content-box {
+    padding-block: 12px;
+    color: white;
+}
+
+
+:where(.css-dev-only-do-not-override-7ny38l).ant-input-outlined {
+    background: #ffffff;
+    border-width: 1px;
+    border-style: solid;
+    border-bottom: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0px;
+    
+}
+
