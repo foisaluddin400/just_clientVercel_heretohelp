@@ -70,7 +70,7 @@ export const WhoPartner = () => {
               capabilities, and extend market reach. Partner with us for a
               journey towards technological excellence.
             </p>
-            <button className="text-xl font-semibold bg-[#2E4CB9] py-3 px-5 rounded mt-7">Become a partner</button>
+            <button className="text-xl font-semibold bg-[#2E4CB9] hover:bg-white hover:text-[#2E4CB9] transition duration-300 py-3 px-5 rounded mt-7">Become a partner</button>
           </div>
         </div>
 

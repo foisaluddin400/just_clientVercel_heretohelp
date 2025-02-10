@@ -28,7 +28,7 @@ export const Navbar = () => {
           rel="noopener noreferrer"
           onClick={handleMenuItemClick}
         >
-          <div className="py-1">
+          <div className="py-2 px-5">
             <h2 className="text-xl font-semibold ">About Us</h2>
             <p className="text-sm">Learn about our mission and team.</p>
           </div>
@@ -43,7 +43,7 @@ export const Navbar = () => {
           rel="noopener noreferrer"
           onClick={handleMenuItemClick}
         >
-          <div className="py-1">
+          <div className="py-2 px-5">
             <h2 className="text-xl font-semibold">Leadership</h2>
             <p className="text-sm">Meat Our team</p>
           </div>
@@ -72,7 +72,7 @@ export const Navbar = () => {
           rel="noopener noreferrer"
           onClick={handleMenuItemClick}
         >
-          <div className="py-1">
+          <div className="py-2 px-5">
             <h2 className="text-xl font-semibold">News & Updates</h2>
             <p className="text-sm">
               Discover the latest updates and media coverage
@@ -89,7 +89,7 @@ export const Navbar = () => {
           rel="noopener noreferrer"
           onClick={handleMenuItemClick}
         >
-          <div className="py-1">
+          <div className="py-2 px-5">
             <h2 className="text-xl font-semibold ">Certifications</h2>
             <p className="text-sm">Join us at industry-leading events to connect and learn.</p>
           </div>
@@ -104,7 +104,7 @@ export const Navbar = () => {
           rel="noopener noreferrer"
           onClick={handleMenuItemClick}
         >
-          <div className="py-1">
+          <div className="py-2 px-5">
             <h2 className="text-xl font-semibold">Business Partner</h2>
             <p className="text-sm">
               Collaborate with us to drive your business forward.
@@ -132,7 +132,7 @@ export const Navbar = () => {
           rel="noopener noreferrer"
           onClick={handleMenuItemClick}
         >
-          <div className="py-1">
+          <div className="py-2 px-5">
             <h2 className="text-xl font-semibold">Careers</h2>
             <p className="text-sm">
               Looking for a career where creativity thrives and the <br />{" "}
@@ -147,7 +147,7 @@ export const Navbar = () => {
 
     {
       label: (
-        <div className="py-1">
+        <div className="py-2 px-5">
           <button className="bg-[#2E4CB9] text-white px-6 py-2 rounded">
             Send Inquire
           </button>

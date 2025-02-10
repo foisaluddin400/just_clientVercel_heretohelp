@@ -27,7 +27,7 @@ export const BusinessCover = () => {
           </p>
           </h1>
           
-         <Link to={'/join-our-partner'}><button className="bg-[#2E4CB9] flex items-center gap-5 py-3 px-5 rounded">Join Our Partner Program <FaArrowRight /></button></Link>
+         <Link to={'/join-our-partner'}><button className="bg-[#2E4CB9] hover:bg-white hover:text-[#2E4CB9] transition duration-300 flex items-center gap-5 py-3 px-5 rounded">Join Our Partner Program <FaArrowRight /></button></Link>
         </div>
       </div>
     </div>

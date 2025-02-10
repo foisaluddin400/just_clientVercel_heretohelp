@@ -57,7 +57,7 @@ export const TestimonialSection = () => {
       {/* Testimonial Section */}
       <div className="absolute mt-28 top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/4 w-full px-4">
         <h2 className="text-center text-2xl sm:text-3xl font-bold mb-6 sm:mb-10">
-          Client Testimonials
+          Client Testimonial
         </h2>
 
         <div className="md:w-full md:max-w-6xl md:m-auto relative">
@@ -102,7 +102,7 @@ export const TestimonialSection = () => {
               {testimonials.map((testimonial, index) => (
                 <div
                   key={index}
-                  className="bg-[#B7B8CA24] border-2 border-[#ffffff28] md:mx-auto h-[300px] sm:h-[350px] md:h-[450px] flex items-center rounded-lg p-4 sm:p-8 shadow-lg"
+                  className="bg-[#B7B8CA24] hover:bg-[#ffffff00] transition duration-300 border-2 border-[#ffffff28] md:mx-auto h-[300px] sm:h-[350px] md:h-[450px] flex items-center rounded-lg p-4 sm:p-8 shadow-lg"
                   style={{ width: "100%" }}
                 >
                   <div>

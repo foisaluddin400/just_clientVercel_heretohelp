@@ -29,7 +29,7 @@ export const HeroSection = () => {
           <h1 className="flex gap-3 text-lg font-semibold">Performance Lags<GiCheckMark className="text-xl font-semibold mt-1 text-blue-500"/></h1>
       
         <Link to={'/our-services'}>
-        <button className="mt-8 px-6 py-3 text-sm md:text-lg font-medium bg-[#DBE3EA] text-blue-900 rounded-lg shadow-lg hover:bg-gray-100 transition duration-300 flex items-center group">
+        <button className="mt-8 px-6 py-3 text-sm md:text-lg font-medium bg-[#DBE3EA] text-blue-900 rounded-lg shadow-lg hover:bg-blue-600 hover:text-white transition duration-300 flex items-center group">
           Explore Our Services
           <MdArrowOutward className="text-xl ml-2" />
         </button></Link>

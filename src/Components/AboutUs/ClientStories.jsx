@@ -155,7 +155,7 @@
 import React, { useState } from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
-import Man from "../../assets/Home/man.png";
+import Man from "../../assets/about/ff.png";
 import back from "../../assets/Home/back5.png";
 import { MdFormatQuote } from "react-icons/md";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
@@ -163,17 +163,17 @@ export const ClientStories = () => {
   const testimonials = [
     {
       quote:
-        "Wow, Honestly. I Can't Express Enough How Crucial BETS Has Been For Us! Their Proactive Approach To IT Support Has Dramatically Cut Our Downtime. And It's A Relief Not To Stress Over Tech Issues Anymore. We Can Actually Concentrate On What We Do Best—Growing Our Business. Huge Thanks To The Entire BETS Team—You Guys Are Lifesavers!",
-      name: "Sophie Ramirez",
-      designation: "Accounting Firm",
-      location: "US",
+        "They have been a lifesaver for our company. Their proactive approach to IT maintenance and support has significantly reduced our downtime, allowing us to focus on growing our business.",
+      name: "Henry Jenkins",
+      
+      location: "Uk London",
       image: Man,
     },
     {
       quote:
         "Their team is phenomenal! They are quick, efficient, and deliver high-quality work every time. BETS has transformed our IT infrastructure, and we couldn't be happier!",
       name: "John Doe",
-      designation: "Tech Company",
+     
       location: "UK",
       image: Man,
     },
@@ -181,7 +181,7 @@ export const ClientStories = () => {
       quote:
         "BETS has been an amazing partner. Their solutions are top-notch, and their support team is always ready to assist. Highly recommend them!",
       name: "Jane Smith",
-      designation: "Healthcare Industry",
+  
       location: "Canada",
       image: Man,
     },
@@ -257,8 +257,8 @@ export const ClientStories = () => {
                   style={{ width: "100%" }}
                 >
                   <div>
-                    <p className="text-sm sm:text-lg md:text-xl mb-4 sm:mb-6">
-                      "{testimonial.quote}"
+                  <p className="text-sm sm:text-lg text-justify md:text-[23px] md:pt-16 mb-4 sm:mb-6 md:leading-[60px]">
+                      {testimonial.quote}
                     </p>
                     <div className="grid grid-cols-2 items-center ">
                       <div className="flex gap-2 sm:gap-4 mt-4">

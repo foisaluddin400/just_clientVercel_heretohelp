@@ -14,7 +14,7 @@ const packages = [
   },
   {
     title: "Pro Bundle",
-    discount: "10%",
+    discount: "15%",
     price: "We'll tailor a competitive quote to your needs.",
     
     services:

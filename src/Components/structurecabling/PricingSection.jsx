@@ -11,6 +11,7 @@ export const PricingSection = () => {
         {
           title: "Average Project Costs ",
           description: "Pricing tailored to your needs—our experts will assess your cabling requirements and provide a customized quote.",
+          label:" Pricing varies by cable type, distance, and project size.",
           buttonLabel: "Book NOW",
         },
         {
@@ -37,6 +38,7 @@ export const PricingSection = () => {
            
            
             <p className="text-sm mb-6">{pkg.description}</p>
+            <p className="text-sm mb-6">{pkg.label}</p>
             <Link to={'/new-ticket'}>
             <button className="bg-[#2E4CB9] text-white py-2 px-4 rounded-lg shadow-md hover:bg-blue-700 transition">
               {pkg.buttonLabel}
