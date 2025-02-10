@@ -27,5 +27,5 @@ const blog = baseApi.injectEndpoints({
 
     }),
 });
-// adsf
+
 export const { useGetAllBlogQuery, useGetSingleBlogDetailsQuery } = blog;

@@ -36,7 +36,10 @@ export const HowBecome = () => {
         </div>
       </div>
       <div className="flex justify-center mt-11 mb-20">
+        <div>
         <img className="w-96" src={img} alt="" />
+        <h1 className="text-4xl text-center text-white -mt-9">Partners you can trust.</h1>
+        </div>
       </div>
     </div>
   );
