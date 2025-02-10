@@ -91,7 +91,11 @@
   color: white;
 }
 
+:where(.css-7ny38l).ant-drawer .ant-drawer-close {
 
+  color: white;
+
+}
   /* @keyframes scroll {
     from {
       transform: translateX(0);
