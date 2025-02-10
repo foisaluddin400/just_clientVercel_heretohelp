@@ -119,22 +119,6 @@
     padding-left: 18px;
     margin-top: -8px;
 }
-
-
-:where(.css-7ny38l).ant-collapse {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  color: #ffffff;
-  font-size: 14px;
-  line-height: 1.5714285714285714;
-  list-style: none;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
-  background-color: #00000005;
-  border: 1px solid #d9d9d9;
-  border-radius: 8px;
-}
-
 :where(.css-dev-only-do-not-override-7ny38l).ant-collapse>.ant-collapse-item:first-child, :where(.css-dev-only-do-not-override-7ny38l).ant-collapse>.ant-collapse-item:first-child>.ant-collapse-header {
   border-radius: 8px 8px 0 0;
   color: white;
