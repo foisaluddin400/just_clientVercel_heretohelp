@@ -143,7 +143,17 @@
     border-radius: 0px;
 }
 
+:where(.css-7ny38l).ant-collapse>.ant-collapse-item >.ant-collapse-header {
 
+  color: rgb(255, 255, 255);
+ 
+}
+
+:where(.css-7ny38l).ant-collapse .ant-collapse-content {
+  color: rgb(255, 255, 255);
+
+  
+}
 :where(.css-7ny38l).ant-collapse {
   box-sizing: border-box;
   margin: 0;
