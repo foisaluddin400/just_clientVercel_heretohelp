@@ -1,6 +1,6 @@
 import React from 'react'
 import { SurvicesBundleCover } from '../../Components/SurvicesBundle/SurvicesBundleCover'
-import { ServiceBundlePackegSection } from '../../Components/SurvicesBundle/serviceBundlePackegSection'
+import { ServiceBundlePackegSection } from '../../Components/SurvicesBundle/ServiceBundlePackegSection'
 
 export const SurvicesBundlesPage = () => {
   return (
