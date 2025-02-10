@@ -17,7 +17,6 @@ export const Navbar = () => {
   };
 
   const handleMenuItemClick = () => {
-    // Close the drawer when a menu item is clicked
     onClose();
   };
 
@@ -37,6 +36,22 @@ export const Navbar = () => {
       ),
       key: "about-us",
     },
+    {
+      label: (
+        <Link
+          to="/company/our-team"
+          rel="noopener noreferrer"
+          onClick={handleMenuItemClick}
+        >
+          <div className="py-1">
+            <h2 className="text-xl font-semibold">Leadership</h2>
+            <p className="text-sm">Meat Our team</p>
+          </div>
+        </Link>
+      ),
+      key: "our",
+    },
+    
     // {
     //   label: (
     //     <Link  to="/company/tech-pertners" rel="noopener noreferrer">
@@ -49,23 +64,7 @@ export const Navbar = () => {
     //   key: "techPartners",
     // },
 
-    {
-      label: (
-        <Link
-          to="/company/tech-pertners"
-          rel="noopener noreferrer"
-          onClick={handleMenuItemClick}
-        >
-          <div className="py-1">
-            <h2 className="text-xl font-semibold">Business Partner</h2>
-            <p className="text-sm">
-              Collaborate with us to drive your business forward.
-            </p>
-          </div>
-        </Link>
-      ),
-      key: "Business",
-    },
+    
     {
       label: (
         <Link
@@ -82,6 +81,38 @@ export const Navbar = () => {
         </Link>
       ),
       key: "newupdate",
+    },
+    {
+      label: (
+        <Link
+          to="/company/certification"
+          rel="noopener noreferrer"
+          onClick={handleMenuItemClick}
+        >
+          <div className="py-1">
+            <h2 className="text-xl font-semibold ">Certifications</h2>
+            <p className="text-sm">Join us at industry-leading events to connect and learn.</p>
+          </div>
+        </Link>
+      ),
+      key: "Certification",
+    },
+    {
+      label: (
+        <Link
+          to="/company/tech-pertners"
+          rel="noopener noreferrer"
+          onClick={handleMenuItemClick}
+        >
+          <div className="py-1">
+            <h2 className="text-xl font-semibold">Business Partner</h2>
+            <p className="text-sm">
+              Collaborate with us to drive your business forward.
+            </p>
+          </div>
+        </Link>
+      ),
+      key: "Business",
     },
     // {
     //   label: (
@@ -112,21 +143,7 @@ export const Navbar = () => {
       ),
       key: "careers",
     },
-    {
-      label: (
-        <Link
-          to="/company/our-team"
-          rel="noopener noreferrer"
-          onClick={handleMenuItemClick}
-        >
-          <div className="py-1">
-            <h2 className="text-xl font-semibold">Our Team</h2>
-            <p className="text-sm">Meat Our team</p>
-          </div>
-        </Link>
-      ),
-      key: "our",
-    },
+    
 
     {
       label: (
@@ -136,7 +153,7 @@ export const Navbar = () => {
           </button>
         </div>
       ),
-      key: "our",
+      key: "send",
     },
   ];
 

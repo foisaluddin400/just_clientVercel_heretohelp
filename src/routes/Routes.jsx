@@ -36,6 +36,7 @@ import { Feedback } from '../Pages/ProfilePage/Feedback';
 import { JoinPartner } from '../Components/TechPartner/JoinPartner';
 import { Activation } from '../Auth/Activation';
 import { LeaderShip } from '../Pages/leaderShip/LeaderShip';
+import { Certification } from '../Pages/certification/Certification';
 
 export const router = createBrowserRouter([
     {
@@ -49,6 +50,10 @@ export const router = createBrowserRouter([
             {
                 path: '/company/about-us',
                 element: <AboutPage></AboutPage>
+            },
+            {
+                path: '/company/certification',
+                element: <Certification></Certification>
             },
             {
                 path: '/company/tech-pertners',
@@ -134,8 +139,12 @@ export const router = createBrowserRouter([
                 path: '/blog',
                 element: <BlogPage></BlogPage>
             },
+            // {
+            //     path: '/blog/blogDetails/:id',
+            //     element: <BlogCardDetails></BlogCardDetails>
+            // },
             {
-                path: '/blog/blogDetails/:id',
+                path: '/blog/blogDetails',
                 element: <BlogCardDetails></BlogCardDetails>
             },
             {
