@@ -76,6 +76,7 @@ import img5 from "../../assets/blog/img5.png";
 import img6 from "../../assets/blog/img6.png";
 import { MdArrowOutward } from "react-icons/md";
 import { Link } from "react-router-dom";
+import { FaArrowRight } from "react-icons/fa";
 
 const blogs = [
   {
@@ -140,9 +141,9 @@ export const BlogCardSection = () => {
             <div className="p-6">
               <h3 className="text-xl font-bold  mb-4">{blog.title}</h3>
               <p className=" mb-6 text-sm">{blog.description}</p>
-              <Link to={'/blog/blogDetails'}><button className="mt-8 px-6 py-2 text-sm md:text-lg font-medium bg-[#DBE3EA] text-blue-900 rounded-lg shadow-lg hover:bg-gray-100 transition duration-300 flex items-center group">
+              <Link to={'/blog/blogDetails'}><button className="mt-8 px-6 py-2 text-sm md:text-lg font-medium bg-[#DBE3EA] text-blue-900 rounded-lg shadow-lg hover:bg-blue-600 hover:text-white transition duration-300 flex items-center group">
                 Read More...
-                <MdArrowOutward className="text-xl ml-2 transform transition-transform duration-300 group-hover:rotate-90" />
+                <FaArrowRight className="text-xl ml-2 " />
               </button></Link>
             </div>
           </div>

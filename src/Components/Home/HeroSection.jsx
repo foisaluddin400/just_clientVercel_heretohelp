@@ -4,6 +4,7 @@ import { MdArrowOutward } from "react-icons/md";
 import { IoMdCheckmark } from "react-icons/io";
 import { GiCheckMark } from "react-icons/gi";
 import { Link } from "react-router-dom";
+import { FaArrowRight } from "react-icons/fa";
 
 export const HeroSection = () => {
   return (
@@ -31,7 +32,7 @@ export const HeroSection = () => {
         <Link to={'/our-services'}>
         <button className="mt-8 px-6 py-3 text-sm md:text-lg font-medium bg-[#DBE3EA] text-blue-900 rounded-lg shadow-lg hover:bg-blue-600 hover:text-white transition duration-300 flex items-center group">
           Explore Our Services
-          <MdArrowOutward className="text-xl ml-2" />
+          <FaArrowRight className="text-xl ml-2" />
         </button></Link>
       </div>
     </div>
