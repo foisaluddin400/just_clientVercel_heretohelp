@@ -72,6 +72,19 @@
   color: white;
 }
 
+
+:where(.css-7ny38l).ant-drawer .ant-drawer-content {
+  display: flex
+;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background: linear-gradient(to top, #05013d, #2E4CB9);
+  pointer-events: auto;
+  color: white;
+}
+
   /* @keyframes scroll {
     from {
       transform: translateX(0);
