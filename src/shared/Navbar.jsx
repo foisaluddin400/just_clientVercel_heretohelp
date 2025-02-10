@@ -28,8 +28,8 @@ export const Navbar = () => {
           rel="noopener noreferrer"
           onClick={handleMenuItemClick}
         >
-          <div className="py-2 px-5">
-            <h2 className="text-xl font-semibold ">About Us</h2>
+          <div className="md:py-2 md:px-5">
+            <h2 className="md:text-xl text-[17px] font-semibold ">About Us</h2>
             <p className="text-sm">Learn about our mission and team.</p>
           </div>
         </Link>
@@ -43,8 +43,8 @@ export const Navbar = () => {
           rel="noopener noreferrer"
           onClick={handleMenuItemClick}
         >
-          <div className="py-2 px-5">
-            <h2 className="text-xl font-semibold">Leadership</h2>
+          <div className="md:py-2 md:px-5">
+            <h2 className="md:text-xl text-[17px] font-semibold">Leadership</h2>
             <p className="text-sm">Meat Our team</p>
           </div>
         </Link>
@@ -72,8 +72,8 @@ export const Navbar = () => {
           rel="noopener noreferrer"
           onClick={handleMenuItemClick}
         >
-          <div className="py-2 px-5">
-            <h2 className="text-xl font-semibold">News & Updates</h2>
+          <div className="md:py-2 md:px-5">
+            <h2 className="md:text-xl text-[17px] font-semibold">News & Updates</h2>
             <p className="text-sm">
               Discover the latest updates and media coverage
             </p>
@@ -89,8 +89,8 @@ export const Navbar = () => {
           rel="noopener noreferrer"
           onClick={handleMenuItemClick}
         >
-          <div className="py-2 px-5">
-            <h2 className="text-xl font-semibold ">Certifications</h2>
+          <div className="md:py-2 md:px-5">
+            <h2 className="md:text-xl text-[17px] font-semibold ">Certifications</h2>
             <p className="text-sm">Join us at industry-leading events to connect and learn.</p>
           </div>
         </Link>
@@ -104,8 +104,8 @@ export const Navbar = () => {
           rel="noopener noreferrer"
           onClick={handleMenuItemClick}
         >
-          <div className="py-2 px-5">
-            <h2 className="text-xl font-semibold">Business Partner</h2>
+          <div className="md:py-2 md:px-5">
+            <h2 className="md:text-xl text-[17px] font-semibold">Business Partner</h2>
             <p className="text-sm">
               Collaborate with us to drive your business forward.
             </p>
@@ -132,8 +132,8 @@ export const Navbar = () => {
           rel="noopener noreferrer"
           onClick={handleMenuItemClick}
         >
-          <div className="py-2 px-5">
-            <h2 className="text-xl font-semibold">Careers</h2>
+          <div className="md:py-2 md:px-5">
+            <h2 className="md:text-xl text-[17px] font-semibold">Careers</h2>
             <p className="text-sm">
               Looking for a career where creativity thrives and the <br />{" "}
               extraordinary in celebrated? Welcome to your future!
@@ -147,7 +147,7 @@ export const Navbar = () => {
 
     {
       label: (
-        <div className="py-2 px-5">
+        <div className="md:py-2 md:px-5">
           <button className="bg-[#2E4CB9] text-white px-6 py-2 rounded">
             Send Inquire
           </button>
@@ -165,8 +165,8 @@ export const Navbar = () => {
           rel="noopener noreferrer"
           onClick={handleMenuItemClick}
         >
-          <div className="py-1">
-            <h1 className="text-xl font-semibold ">
+          <div className="md:py-1">
+            <h1 className="md:text-xl text-[17px] font-semibold ">
               Structure Cabling (Copper And Fiber)
             </h1>
             <p>
@@ -185,8 +185,8 @@ export const Navbar = () => {
           rel="noopener noreferrer"
           onClick={handleMenuItemClick}
         >
-          <div className="py-1">
-            <h1 className="text-xl font-semibold">Break/Fix Services</h1>
+          <div className="md:py-1">
+            <h1 className="md:text-xl text-[17px] font-semibold">Break/Fix Services</h1>
             <p>
               Rapid Diagnosis And Repair Of Hardware And Network Issues To <br />
               Minimize Disruptions.
@@ -203,8 +203,8 @@ export const Navbar = () => {
           rel="noopener noreferrer"
           onClick={handleMenuItemClick}
         >
-          <div className="py-1">
-            <h1 className="text-xl font-semibold">
+          <div className="md:py-1">
+            <h1 className="md:text-xl text-[17px] font-semibold">
               {" "}
               Rack And Device Installation
             </h1>
@@ -224,8 +224,8 @@ export const Navbar = () => {
           rel="noopener noreferrer"
           onClick={handleMenuItemClick}
         >
-          <div className="py-1">
-            <h1 className="text-xl font-semibold">Network Migrations And Cutovers</h1>
+          <div className="md:py-1">
+            <h1 className="md:text-xl text-[17px] font-semibold">Network Migrations And Cutovers</h1>
             <p>Seamless Upgrades Or Migrations Of Networks With Minimal <br />
             Downtime And High Precision.</p>
           </div>
@@ -240,8 +240,8 @@ export const Navbar = () => {
           rel="noopener noreferrer"
           onClick={handleMenuItemClick}
         >
-         <div className="py-1">
-          <h1 className="text-xl font-semibold"> Site Surveys</h1>
+         <div className="md:py-1">
+          <h1 className="md:text-xl text-[17px] font-semibold"> Site Surveys</h1>
           <p>Comprehensive Evaluation Of Network Needs With Recommendations <br />
           For Infrastructure Optimization.</p>
          </div>
@@ -256,8 +256,8 @@ export const Navbar = () => {
           rel="noopener noreferrer"
           onClick={handleMenuItemClick}
         >
-          <div className="py-1">
-            <h1 className="text-xl font-semibold">Consultations On Cutting-Edge Technologies</h1>
+          <div className="md:py-1">
+            <h1 className="md:text-xl text-[17px] font-semibold">Consultations On Cutting-Edge Technologies</h1>
             <p>Expert Advice On Adopting The Latest Technologies To Streamline <br />
             Operations And Boost Productivity.</p>
           </div>
@@ -272,8 +272,8 @@ export const Navbar = () => {
           rel="noopener noreferrer"
           onClick={handleMenuItemClick}
         >
-          <div className="py-1">
-            <h1 className="text-xl font-semibold">Deployment Of New Network Devices</h1>
+          <div className="md:py-1">
+            <h1 className="md:text-xl text-[17px] font-semibold">Deployment Of New Network Devices</h1>
             <p>Configuration And Deployment Of Cutting-Edge IT Hardware Tailored To <br />
             Your Network Environment.</p>
           </div>
@@ -289,8 +289,8 @@ export const Navbar = () => {
           rel="noopener noreferrer"
           onClick={handleMenuItemClick}
         >
-          <div className="py-1">
-            <h1 className="text-xl font-semibold">Services Bundles And Maintenance</h1>
+          <div className="md:py-1">
+            <h1 className="md:text-xl text-[17px] font-semibold">Services Bundles And Maintenance</h1>
           </div>
         </Link>
       ),
@@ -303,8 +303,8 @@ export const Navbar = () => {
           rel="noopener noreferrer"
           onClick={handleMenuItemClick}
         >
-          <div className="py-1">
-            <h1 className="text-xl font-semibold">Pricing Strategy And Transparency</h1>
+          <div className="md:py-1">
+            <h1 className="md:text-xl text-[17px] font-semibold">Pricing Strategy And Transparency</h1>
           </div>
         </Link>
       ),

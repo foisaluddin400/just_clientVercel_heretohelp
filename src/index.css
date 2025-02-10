@@ -72,7 +72,13 @@
   color: white;
 }
 
+:where(.css-dev-only-do-not-override-7ny38l).ant-drawer .ant-drawer-close {
+  display: inline-flex
+;
 
+  color: white;
+
+}
 :where(.css-7ny38l).ant-drawer .ant-drawer-content {
   display: flex
 ;
@@ -84,6 +90,7 @@
   pointer-events: auto;
   color: white;
 }
+
 
   /* @keyframes scroll {
     from {
