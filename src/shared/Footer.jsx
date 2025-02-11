@@ -29,25 +29,26 @@ export const Footer = () => {
         <div>
           <h2 className="text-lg font-bold mb-2">Services</h2>
           <ul className="space-y-4">
-            <li>Structured Cabling (Copper And Fiber)</li>
-            <li>Rack And Device Installation</li>
-            <li>Break/Fix Services</li>
-            <li>Network Migrations And Cutovers</li>
-            <li>Site Surveys</li>
-            <li>Deployment Of New Network Devices</li>
-            <li>Consultations On Cutting-Edge Technologies</li>
+            <li><Link to={'/services/Structure-Cabling'}>Structured Cabling (Copper And Fiber)</Link></li>
+            <li><Link to={'/services/rack-and-device-installation'}>Rack And Device Installation</Link></li>
+            <li><Link to={'/services/Break-FixServices'}>Break/Fix Services</Link></li>
+            <li><Link to={'/services/Network-Migrations'}>Network Migrations And Cutovers</Link></li>
+            <li><Link to={'/services/site-surveys'}>Site Surveys</Link></li>
+            <li><Link to={'/services/new-network'}>Deployment Of New Network Devices</Link></li>
+            <li><Link to={'/services/consultation-on-cutting'}>Consultations On Cutting-Edge Technologies</Link></li>
           </ul>
         </div>
 
         {/* Quick Links */}
         <div>
           <h2 className="text-lg font-bold mb-2">Quick Link</h2>
-          <ul className="space-y-3">
-            <li>Home</li>
-            <li>About Us</li>
-            <li>Blog</li>
-            <li>Contact Us</li>
-            <Link to={'/feedback'}><li  className="pt-3">Feedback</li></Link>
+          <ul className="">
+            <Link to={'/'}><li>Home</li></Link>
+            <Link to={'/company/about-us'}><li className="py-3">About Us</li></Link>
+            <Link to={'/blog'}><li>Blog</li></Link>
+            <Link to={'/contactUs'}>
+            <li className="py-3">Contact Us</li></Link>
+            <Link to={'/feedback'}><li >Feedback</li></Link>
           </ul>
         </div>
       </div>
