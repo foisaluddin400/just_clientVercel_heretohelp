@@ -77,6 +77,8 @@ import img5 from "../../assets/newUpdate/img5.png";
 import img6 from "../../assets/newUpdate/img6.png";
 import img7 from "../../assets/newUpdate/img7.png";
 import img8 from "../../assets/newUpdate/img8.png";
+import { FaFacebook, FaFacebookF, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
+import { FaXTwitter } from 'react-icons/fa6';
 
 export const NewUpdateCard = () => {
   const cardData = [
@@ -141,8 +143,19 @@ export const NewUpdateCard = () => {
   return (
     <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-4 py-20">
       {cardData.map((card, index) => (
-        <div key={index} className=" text-white rounded-md ">
-          <img src={card.image} alt={card.title} className="w-full lg:h-40 md:h-60 h-96 object-cover rounded-md mb-4"/>
+        <div key={index} className="text-white rounded-md group">
+          <div className="relative">
+            <img src={card.image} alt={card.title} className="w-full lg:h-40 md:h-60 h-96 object-cover rounded-md mb-4"/>
+            {/* Facebook Icon shown on hover */}
+            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-black text-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <div className='bg-white flex gap-5 p-2 rounded-full'>
+            <FaFacebookF  />
+            <FaInstagram />
+            <FaXTwitter />
+            <FaLinkedinIn />
+            </div>
+            </div>
+          </div>
           <p className="text-xs">{card.date} <span className="ml-2">{card.source}</span></p>
           <h3 className="font-semibold text-xl mt-2">{card.title}</h3>
           <p className="text-sm mt-2">{card.description}</p>

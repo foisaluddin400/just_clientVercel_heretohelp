@@ -2,7 +2,7 @@ import React from "react";
 import img from "../../assets/ourteam/img1.png";
 export const ForgingFuture = () => {
   return (
-    <div className="px-4 lg:px-0">
+    <div className="px-4 lg:px-0 md:pt-36">
       <div className="text-white py-28 relative ">
         {/* Background Image */}
         <div className="relative flex justify-center ">

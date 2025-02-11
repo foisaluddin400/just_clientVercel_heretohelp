@@ -28,7 +28,7 @@ export const PricingSection = () => {
         {packages.map((pkg, index) => (
           <div
             key={index}
-            className="bg-white flex items-center text-black rounded-lg shadow-lg p-6 text-center"
+            className="bg-white flex items-center hover:bg-[#2727aa] hover:text-white transition duration-100 text-black rounded-lg shadow-lg p-6 text-center"
           >
            <div>
            <h3 className="text-3xl font-bold mb-2">
@@ -40,7 +40,7 @@ export const PricingSection = () => {
             <p className="text-sm mb-6">{pkg.description}</p>
             <p className="text-sm mb-6">{pkg.label}</p>
             <Link to={'/new-ticket'}>
-            <button className="bg-[#2E4CB9] text-white py-2 px-4 rounded-lg shadow-md hover:bg-blue-700 transition">
+            <button className="bg-[#2E4CB9]  text-white py-2 px-4 rounded-lg shadow-md hover:bg-white hover:text-blue-600 transition">
               {pkg.buttonLabel}
             </button></Link>
            </div>

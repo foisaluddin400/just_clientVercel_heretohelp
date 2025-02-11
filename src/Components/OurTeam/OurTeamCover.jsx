@@ -12,7 +12,7 @@ export const OurTeamCover = () => {
         <div className="relative z-10 flex flex-col justify-center items-center h-full text-center px-6">
           <h1 className=" md:text-6xl font-bold leading-tight">
             <span className="text-5xl">MEET THE</span> <br />{" "}
-            <span className="md:text-7xl text-5xl bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
+            <span className="md:text-7xl text-5xl bg-gradient-to-r from-[#cbafe6] via-[#ab82f1] to-[#e5d7f3] bg-clip-text text-transparent">
               BETS
             </span>
             <span className="md:text-7xl text-5xl font-bold"> TEAM.</span>

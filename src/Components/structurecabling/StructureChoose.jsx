@@ -30,8 +30,8 @@ export const StructureChoose = () => {
                     </h1>
 
                     <div className="">
-                      <div className=" border-slate-600 py-6 ">
-                        <h2 className=" text-2xl">
+                      <div className=" border-slate-600 py-2 ">
+                        <h2 className=" text-xl">
                           Precision Engineered Solutions:{" "}
                         </h2>
                         <p className=" py-3">
@@ -40,8 +40,8 @@ export const StructureChoose = () => {
                           scalability and high performance.
                         </p>
                       </div>
-                      <div className=" border-slate-600 py-6">
-                        <h2 className=" text-2xl">
+                      <div className=" border-slate-600 py-2">
+                        <h2 className=" text-xl">
                           Expert Installation and Support:
                         </h2>
                         <p className=" py-3">
@@ -50,8 +50,8 @@ export const StructureChoose = () => {
                           to keep your network running smoothly.
                         </p>
                       </div>
-                      <div className=" border-slate-600 py-6">
-                        <h2 className=" text-2xl">Efficient and Reliable: </h2>
+                      <div className=" border-slate-600 py-2">
+                        <h2 className=" text-xl">Efficient and Reliable: </h2>
                         <p className=" py-3">
                           With state-of-the-art tools and practices, we
                           guarantee minimal disruption during installation and a
@@ -60,8 +60,8 @@ export const StructureChoose = () => {
                         </p>
                       </div>
 
-                      <div className=" border-slate-600 py-6">
-                        <h2 className=" text-2xl">Future-Proof Networking: </h2>
+                      <div className=" border-slate-600 py-2">
+                        <h2 className=" text-xl">Future-Proof Networking: </h2>
                         <p className=" py-3">
                           We build systems that are ready for tomorrow’s
                           technology, giving you a competitive edge and ensuring
@@ -73,7 +73,7 @@ export const StructureChoose = () => {
                   <div className="hidden lg:block">
                     <div className="flex justify-center">
                       <img
-                        className="rounded-3xl my-16 w-[400px]"
+                        className="rounded-3xl mt-44 w-[400px]"
                         src={backImg3}
                         alt=""
                       />

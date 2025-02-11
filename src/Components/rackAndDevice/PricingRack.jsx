@@ -20,50 +20,50 @@ export const PricingRack = () => {
             <div className="max-w-5xl mx-auto flex justify-center items-center ">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 {/* Rack Installation Card */}
-                <div className="bg-white rounded-lg shadow-lg p-6 text-center">
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2">
+                <div className="bg-white hover:bg-[#2727aa] text-black hover:text-white transition duration-100 rounded-lg shadow-lg p-6 text-center">
+                  <h3 className="text-xl font-semibold  mb-2">
                     Rack Installation
                   </h3>
-                  <p className="text-black mb-4">
+                  <p className=" mb-4">
                   As low as $299
                   </p>
-                  <p className="text-black mb-6">
+                  <p className=" mb-6">
                     Rack Assembly Services Begin As Low As $300 And Scale Up To
                     $600, Depending On The Number Of Devices And Complexity Of
                     The Cabling And Rack Setup.
                   </p>
-                  <Link to={'/new-ticket'}><button className="bg-[#2E4CB9] hover:bg-blue-600 text-white px-4 py-2 rounded-md">
+                  <Link to={'/new-ticket'}><button className="bg-[#2E4CB9] hover:bg-white hover:text-blue-500 transition text-white px-4 py-2 rounded-md">
                     Book NOW
                   </button></Link>
                 </div>
 
                 {/* Device Installation Card */}
-                <div className="bg-white rounded-lg shadow-lg p-6 text-center">
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2">
+                <div className="bg-white hover:bg-[#2727aa] text-black hover:text-white transition duration-100 rounded-lg shadow-lg p-6 text-center">
+                  <h3 className="text-xl font-semibold  mb-2">
                     Device Installation
                   </h3>
-                  <p className="text-black mb-4">Starting as low as $49 per Device</p>
-                  <p className="text-black mb-6">
+                  <p className=" mb-4">Starting as low as $49 per Device</p>
+                  <p className=" mb-6">
                     Device Installation Starts At $50 Per Device And Goes Up To
                     $250 For Advanced Configurations, Depending On
                     Project-Specific Requirements.
                   </p>
-                  <Link to={'/new-ticket'}><button className="bg-[#2E4CB9] hover:bg-blue-600 text-white px-4 py-2 rounded-md">
+                  <Link to={'/new-ticket'}><button className="bg-[#2E4CB9] hover:bg-white hover:text-blue-500 transition text-white px-4 py-2 rounded-md">
                     Book NOW
                   </button></Link>
                 </div>
               </div>
             </div>
             <div className="flex justify-center">
-              <div className="bg-white lg:w-[50%] lg:m-8 mt-8 rounded-lg shadow-lg p-6 text-center">
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">
+              <div className="bg-white lg:w-[50%] hover:bg-[#2727aa] text-black hover:text-white transition duration-100 lg:m-8 mt-8 rounded-lg shadow-lg p-6 text-center">
+                <h3 className="text-xl font-semibold  mb-2">
                 Custom Quote
                 </h3>
                 
-                <p className="text-black mb-6">
+                <p className=" mb-6">
                 Have a unique project or large-scale setup? Contact us for a tailored quote designed to meet your exact needs.
                 </p>
-                <Link to={'/new-ticket'}><button className="bg-[#2E4CB9] hover:bg-blue-600 text-white px-4 py-2 rounded-md">
+                <Link to={'/new-ticket'}><button className="bg-[#2E4CB9] hover:bg-white hover:text-blue-500 transition text-white px-4 py-2 rounded-md">
                 Request Custom Project
                   </button></Link>
               </div>

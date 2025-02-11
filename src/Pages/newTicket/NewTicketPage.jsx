@@ -44,12 +44,12 @@ export const NewTicketPage = () => {
               <select
                 id="priority"
                 name="priority"
-                className="w-full p-3 bg-transparent  border border-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full p-3 bg-transparent border   border-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
               >
-                <option>Select Priority</option>
-                <option>High</option>
-                <option>Medium</option>
-                <option>Low</option>
+                <option className='text-black border-b'>Select Priority</option>
+                <option className='text-black border-b'>High</option>
+                <option className='text-black border-b'>Medium</option>
+                <option className='text-black border-b'>Low</option>
               </select>
             </div>
             <div>
@@ -59,10 +59,10 @@ export const NewTicketPage = () => {
                 name="category"
                 className="w-full bg-transparent p-3 border border-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
               >
-                <option>Select Category</option>
-                <option>Networking</option>
-                <option>Hardware</option>
-                <option>Software</option>
+                <option className='text-black border-b'>Select Category</option>
+                <option className='text-black border-b'>Networking</option>
+                <option className='text-black border-b'>Hardware</option>
+                <option className='text-black border-b'>Software</option>
               </select>
             </div>
           </div>

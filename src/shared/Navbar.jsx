@@ -2,12 +2,13 @@ import React, { useState } from "react";
 import { DownOutlined, MenuOutlined } from "@ant-design/icons";
 import { Dropdown, Space, Drawer } from "antd";
 import Logo from "../assets/Home/logo.png";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { FaRegUserCircle } from "react-icons/fa";
+import { FaCircleArrowDown } from "react-icons/fa6";
 
 export const Navbar = () => {
   const [drawerOpen, setDrawerOpen] = useState(false);
-
+  const location = useLocation();
   const showDrawer = () => {
     setDrawerOpen(true);
   };
@@ -20,6 +21,8 @@ export const Navbar = () => {
     onClose();
   };
 
+  const isActive = (path) => location.pathname === path;
+
   const dropdownItemsCompany = [
     {
       label: (
@@ -27,6 +30,7 @@ export const Navbar = () => {
           to="/company/about-us"
           rel="noopener noreferrer"
           onClick={handleMenuItemClick}
+          className={`hover:underline ${isActive("/company/about-us") ? "border-b-2 border-white" : ""}`}
         >
           <div className="md:py-2 md:px-5">
             <h2 className="md:text-xl text-[17px] font-semibold ">About Us</h2>
@@ -42,10 +46,11 @@ export const Navbar = () => {
           to="/company/our-team"
           rel="noopener noreferrer"
           onClick={handleMenuItemClick}
+          className={`hover:underline ${isActive("/company/our-team") ? "border-b-2 border-white" : ""}`}
         >
           <div className="md:py-2 md:px-5">
             <h2 className="md:text-xl text-[17px] font-semibold">Leadership</h2>
-            <p className="text-sm">Meat Our team</p>
+            <p className="text-sm">Meet Our team</p>
           </div>
         </Link>
       ),
@@ -71,6 +76,7 @@ export const Navbar = () => {
           to="/company/new-update"
           rel="noopener noreferrer"
           onClick={handleMenuItemClick}
+          className={`hover:underline ${isActive("/company/new-update") ? "border-b-2 border-white" : ""}`}
         >
           <div className="md:py-2 md:px-5">
             <h2 className="md:text-xl text-[17px] font-semibold">News & Updates</h2>
@@ -88,6 +94,7 @@ export const Navbar = () => {
           to="/company/certification"
           rel="noopener noreferrer"
           onClick={handleMenuItemClick}
+          className={`hover:underline ${isActive("/company/certification") ? "border-b-2 border-white" : ""}`}
         >
           <div className="md:py-2 md:px-5">
             <h2 className="md:text-xl text-[17px] font-semibold ">Certifications</h2>
@@ -103,6 +110,7 @@ export const Navbar = () => {
           to="/company/tech-pertners"
           rel="noopener noreferrer"
           onClick={handleMenuItemClick}
+          className={`hover:underline ${isActive("/company/tech-pertners") ? "border-b-2 border-white" : ""}`}
         >
           <div className="md:py-2 md:px-5">
             <h2 className="md:text-xl text-[17px] font-semibold">Business Partner</h2>
@@ -131,6 +139,7 @@ export const Navbar = () => {
           to="/company/careers"
           rel="noopener noreferrer"
           onClick={handleMenuItemClick}
+          className={`hover:underline ${isActive("/company/careers") ? "border-b-2 border-white" : ""}`}
         >
           <div className="md:py-2 md:px-5">
             <h2 className="md:text-xl text-[17px] font-semibold">Careers</h2>
@@ -164,6 +173,7 @@ export const Navbar = () => {
           to="/services/Structure-Cabling"
           rel="noopener noreferrer"
           onClick={handleMenuItemClick}
+          className={`hover:underline ${isActive("/services/Structure-Cabling") ? "border-b-2 border-white" : ""}`}
         >
           <div className="md:py-1">
             <h1 className="md:text-xl text-[17px] font-semibold ">
@@ -184,6 +194,7 @@ export const Navbar = () => {
           to="/services/Break-FixServices"
           rel="noopener noreferrer"
           onClick={handleMenuItemClick}
+          className={`hover:underline ${isActive("/services/Break-FixServices") ? "border-b-2 border-white" : ""}`}
         >
           <div className="md:py-1">
             <h1 className="md:text-xl text-[17px] font-semibold">Break/Fix Services</h1>
@@ -202,6 +213,7 @@ export const Navbar = () => {
           to="/services/rack-and-device-installation"
           rel="noopener noreferrer"
           onClick={handleMenuItemClick}
+          className={`hover:underline ${isActive("/services/rack-and-device-installation") ? "border-b-2 border-white" : ""}`}
         >
           <div className="md:py-1">
             <h1 className="md:text-xl text-[17px] font-semibold">
@@ -223,6 +235,7 @@ export const Navbar = () => {
           to="/services/Network-Migrations"
           rel="noopener noreferrer"
           onClick={handleMenuItemClick}
+          className={`hover:underline ${isActive("/services/Network-Migrations") ? "border-b-2 border-white" : ""}`}
         >
           <div className="md:py-1">
             <h1 className="md:text-xl text-[17px] font-semibold">Network Migrations And Cutovers</h1>
@@ -239,6 +252,7 @@ export const Navbar = () => {
           to="/services/site-surveys"
           rel="noopener noreferrer"
           onClick={handleMenuItemClick}
+          className={`hover:underline ${isActive("/services/site-surveys") ? "border-b-2 border-white" : ""}`}
         >
          <div className="md:py-1">
           <h1 className="md:text-xl text-[17px] font-semibold"> Site Surveys</h1>
@@ -255,6 +269,7 @@ export const Navbar = () => {
           to="/services/consultation-on-cutting"
           rel="noopener noreferrer"
           onClick={handleMenuItemClick}
+          className={`hover:underline ${isActive("/services/consultation-on-cutting") ? "border-b-2 border-white" : ""}`}
         >
           <div className="md:py-1">
             <h1 className="md:text-xl text-[17px] font-semibold">Consultations On Cutting-Edge Technologies</h1>
@@ -271,6 +286,7 @@ export const Navbar = () => {
           to="/services/new-network"
           rel="noopener noreferrer"
           onClick={handleMenuItemClick}
+          className={`hover:underline ${isActive("/services/new-network") ? "border-b-2 border-white" : ""}`}
         >
           <div className="md:py-1">
             <h1 className="md:text-xl text-[17px] font-semibold">Deployment Of New Network Devices</h1>
@@ -288,6 +304,7 @@ export const Navbar = () => {
           to="/services/service-bundle"
           rel="noopener noreferrer"
           onClick={handleMenuItemClick}
+          className={`hover:underline ${isActive("/services/service-bundle") ? "border-b-2 border-white" : ""}`}
         >
           <div className="md:py-1">
             <h1 className="md:text-xl text-[17px] font-semibold">Services Bundles And Maintenance</h1>
@@ -302,6 +319,7 @@ export const Navbar = () => {
           to="/services/pricing-strategy"
           rel="noopener noreferrer"
           onClick={handleMenuItemClick}
+          className={`hover:underline ${isActive("/services/pricing-strategy") ? "border-b-2 border-white" : ""}`}
         >
           <div className="md:py-1">
             <h1 className="md:text-xl text-[17px] font-semibold">Pricing Strategy And Transparency</h1>
@@ -320,6 +338,7 @@ export const Navbar = () => {
           to="/profilePage"
           rel="noopener noreferrer"
           onClick={handleMenuItemClick}
+          className={`hover:underline ${isActive("/profilePage") ? "border-b-2 border-white" : ""}`}
         >
           Profile
         </Link>
@@ -332,6 +351,7 @@ export const Navbar = () => {
           to="/profilePage/ongoing-tickets"
           rel="noopener noreferrer"
           onClick={handleMenuItemClick}
+          className={`hover:underline ${isActive("/profilePage/ongoing-tickets") ? "border-b-2 border-white" : ""}`}
         >
           Ongoing Tickets
         </Link>
@@ -344,6 +364,7 @@ export const Navbar = () => {
           to="/new-ticket"
           rel="noopener noreferrer"
           onClick={handleMenuItemClick}
+          className={`hover:underline ${isActive("/new-ticket") ? "border-b-2 border-white" : ""}`}
         >
           New Ticket
         </Link>
@@ -356,6 +377,7 @@ export const Navbar = () => {
           to="/privacy-policy"
           rel="noopener noreferrer"
           onClick={handleMenuItemClick}
+          className={`hover:underline ${isActive("/privacy-policy") ? "border-b-2 border-white" : ""}`}
         >
           Privacy & Policy
         </Link>
@@ -368,11 +390,25 @@ export const Navbar = () => {
           to="/terms-condition"
           rel="noopener noreferrer"
           onClick={handleMenuItemClick}
+          className={`hover:underline ${isActive("/terms-condition") ? "border-b-2 border-white" : ""}`}
         >
           Terms & Condition
         </Link>
       ),
       key: "terms",
+    },
+    {
+      label: (
+        <Link
+          to="/auth/login"
+          rel="noopener noreferrer"
+          onClick={handleMenuItemClick}
+          className={`hover:underline ${isActive("/auth/login") ? "border-b-2 border-white" : ""}`}
+        >
+          Log Out
+        </Link>
+      ),
+      key: "log",
     },
   ];
 
@@ -380,8 +416,8 @@ export const Navbar = () => {
     {
       key: "home",
       label: (
-        <Link onClick={handleMenuItemClick} to="/">
-          Home
+        <Link onClick={handleMenuItemClick} to="/" className={`hover:underline ${isActive("/") ? "border-b border-white" : ""}`}>
+        Home
         </Link>
       ),
     },
@@ -405,7 +441,7 @@ export const Navbar = () => {
           <Link onClick={(e) => e.preventDefault()}>
             <Space>
               Services
-              <DownOutlined />
+              <FaCircleArrowDown />
             </Space>
           </Link>
         </Dropdown>
@@ -414,7 +450,7 @@ export const Navbar = () => {
     {
       key: "contactUs",
       label: (
-        <Link onClick={handleMenuItemClick} to="/contactUs">
+        <Link onClick={handleMenuItemClick} to="/contactUs" className={`hover:underline ${isActive("/contactUs") ? "border-b border-white" : ""}`}>
           Contact Us
         </Link>
       ),
@@ -422,7 +458,7 @@ export const Navbar = () => {
     {
       key: "blog",
       label: (
-        <Link onClick={handleMenuItemClick} to="/blog">
+        <Link onClick={handleMenuItemClick} to="/blog" className={`hover:underline ${isActive("/blog") ? "border-b border-white" : ""}`}>
           Blog
         </Link>
       ),
@@ -430,7 +466,7 @@ export const Navbar = () => {
     {
       key: "submitTicket",
       label: (
-        <Link onClick={handleMenuItemClick} to="/new-ticket">
+        <Link onClick={handleMenuItemClick} to="/new-ticket" className={`hover:underline ${isActive("/new-ticket") ? "border-b border-white" : ""}`}>
           Submit A Ticket
         </Link>
       ),
@@ -454,35 +490,31 @@ export const Navbar = () => {
 
   return (
     <div className="bg-[#2E4CB9] text-white">
-      {/* Desktop Navbar */}
-      <nav className="flex items-center  max-w-7xl m-auto justify-between  px-6 lg:px-0 py-3">
-        <img className="w-[50px]" src={Logo} alt="Logo" />
-        <ul className="hidden lg:flex lg:space-x-20 space-x-6">
-          {items.map((item) => (
-            <li key={item.key} className="list-none">
-              {item.label}
-            </li>
-          ))}
-        </ul>
-        <button className="lg:hidden text-2xl" onClick={showDrawer}>
+    {/* Desktop Navbar */}
+    <nav className="flex items-center  max-w-7xl m-auto justify-between  px-6 lg:px-0 py-1">
+      <img className="w-[65px]" src={Logo} alt="Logo" />
+      <ul className="hidden lg:flex lg:space-x-20 space-x-6 pt-3">
+        {items.map((item) => (
+          <li key={item.key} className="list-none">
+            {item.label}
+          </li>
+        ))}
+      </ul>
+      <button className="lg:hidden text-2xl" onClick={showDrawer}>
         <MenuOutlined />
-        </button>
-      </nav>
+      </button>
+    </nav>
 
-      {/* Mobile Drawer */}
-
-      <Drawer title="" placement="right" onClose={onClose} open={drawerOpen}>
-        <ul className="flex flex-col   ">
-          {items.map((item) => (
-            <li
-              key={item.key}
-              className="list-none border-b border-slate-200 py-5"
-            >
-              {item.label}
-            </li>
-          ))}
-        </ul>
-      </Drawer>
-    </div>
+    {/* Mobile Drawer */}
+    <Drawer title="" placement="right" onClose={onClose} open={drawerOpen}>
+      <ul className="flex flex-col">
+        {items.map((item) => (
+          <li key={item.key} className="list-none border-b border-slate-200 py-5">
+            {item.label}
+          </li>
+        ))}
+      </ul>
+    </Drawer>
+  </div>
   );
 };

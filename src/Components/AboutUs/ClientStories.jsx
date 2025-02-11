@@ -253,7 +253,7 @@ export const ClientStories = () => {
               {testimonials.map((testimonial, index) => (
                 <div
                   key={index}
-                  className="bg-[#B7B8CA24] md:mx-auto h-[300px] sm:h-[350px] md:h-[400px] flex items-center rounded-lg p-4 sm:p-8 shadow-lg"
+                  className="bg-[#B7B8CA24] hover:bg-[#00000000] hover:border border-gray-600 transition duration-100 md:mx-auto h-[300px] sm:h-[350px] md:h-[400px] flex items-center rounded-lg p-4 sm:p-8 shadow-lg"
                   style={{ width: "100%" }}
                 >
                   <div>

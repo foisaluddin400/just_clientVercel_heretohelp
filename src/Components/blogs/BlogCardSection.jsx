@@ -131,7 +131,7 @@ export const BlogCardSection = () => {
         {blogs.map((blog) => (
           <div
             key={blog.id}
-            className=" text-white border border-gray-700 rounded-lg shadow-lg overflow-hidden "
+            className=" text-white border hover:bg-[#2727aa] hover:text-white transition duration-100 border-gray-700 rounded-lg shadow-lg overflow-hidden "
           >
             <img
               src={blog.image}

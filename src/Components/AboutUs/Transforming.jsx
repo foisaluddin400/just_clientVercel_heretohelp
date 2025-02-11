@@ -5,7 +5,7 @@ import { TbTargetArrow } from "react-icons/tb";
 import { GiEyeShield } from "react-icons/gi";
 export const Transforming = () => {
   return (
-    <div className="">
+    <div className="bg-gradient-to-r from-[#06072b] via-[#000d74] to-[#06072b] opacity-95">
       <div
         className="relative bg-cover bg-center w-full flex items-center px-4 lg:px-0 md:h-[100vh] py-11 md:py-0"
         style={{ backgroundImage: `url(${backImg})` }}
@@ -25,7 +25,7 @@ export const Transforming = () => {
                 </div>
                 <div>
                   <h1 className="text-2xl pb-2">Vision</h1>
-                  <p>
+                  <p className="text-gray-600">
                     To be a trusted technology partner for businesses of all
                     sizes, delivering industry-leading solutions and unmatched
                     customer service.
@@ -39,7 +39,7 @@ export const Transforming = () => {
                 </div>
                 <div>
                   <h1 className="text-2xl pb-2">Mission Statement</h1>
-                  <p>
+                  <p className="text-gray-600">
                     Empowering organizations with reliable and innovative IT
                     solutions that drive operational efficiency, scalability,
                     and cost-effectiveness.
