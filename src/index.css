@@ -203,7 +203,6 @@
 
 textarea:where(.css-dev-only-do-not-override-7ny38l).ant-input {
     max-width: 100%;
-    
     height: 20px;
     line-height: 1.5714285714285714;
     vertical-align: bottom;

@@ -42,7 +42,7 @@ export const SpecialPackage = () => {
         {packages.map((pkg, index) => (
           <div
             key={index}
-            className="bg-white text-black rounded-lg shadow-lg p-6 text-center"
+            className="bg-white hover:bg-blue-600 hover:text-white text-black rounded-lg shadow-lg p-6 text-center"
           >
             <h3 className="text-xl font-bold mb-2">
               {pkg.title}{" "}
