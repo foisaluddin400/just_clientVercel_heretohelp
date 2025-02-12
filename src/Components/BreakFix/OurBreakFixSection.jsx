@@ -115,7 +115,7 @@ export const OurBreakFixSection = () => {
           {packages.map((pkg, index) => (
             <div
               key={index}
-              className="bg-white hover:bg-[#2727aa] hover:text-white transition duration-100 text-black rounded-lg shadow-lg p-6 text-center"
+              className="bg-white flex flex-col justify-between items-center hover:bg-[#2727aa] hover:text-white transition duration-100 text-black rounded-lg shadow-lg p-6 text-center"
             >
               <h3 className="text-xl font-bold mb-2">
                 {pkg.title}{" "}
@@ -134,9 +134,10 @@ export const OurBreakFixSection = () => {
               <p className="text-sm my-4">{pkg.services}</p>
               <p className="text-sm mb-6">{pkg.description}</p>
               <Link to={'/new-ticket'}>
-              <button className="bg-[#2E4CB9]  text-white py-2 px-4 rounded-lg shadow-md hover:bg-white hover:text-blue-500 transition">
+              <button className="bg-[#2E4CB9] text-white py-2 px-4 rounded-lg shadow-md hover:bg-white hover:text-blue-600 transition mt-auto">
                 {pkg.buttonLabel}
-              </button></Link>
+              </button>
+            </Link>
             </div>
           ))}
         </div>

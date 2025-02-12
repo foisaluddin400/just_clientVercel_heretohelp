@@ -154,16 +154,7 @@ export const Navbar = () => {
     },
     
 
-    {
-      label: (
-        <div className="md:py-2 md:px-5">
-          <button className="bg-[#2E4CB9] text-white px-6 py-2 rounded">
-            Send Inquire
-          </button>
-        </div>
-      ),
-      key: "send",
-    },
+    
   ];
 
   const dropdownItemsServices = [

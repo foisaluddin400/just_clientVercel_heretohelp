@@ -69,6 +69,7 @@ export const NewTicketPage = () => {
                 <option className='text-black border-b'>Deployment Of New Network Devices</option>
                 <option className='text-black border-b'>Services Bundles And Maintenace</option>
                 <option className='text-black border-b'>Pricing Strategy And Transparency</option>
+                <option className='text-black border-b'>Others</option>
               </select>
             </div>
           </div>
