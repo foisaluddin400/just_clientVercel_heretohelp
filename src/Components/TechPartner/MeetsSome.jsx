@@ -29,7 +29,7 @@ const techPartners = [
 export const MeetsSome = () => {
   const [scrollX, setScrollX] = useState(0);
   const [startScroll, setStartScroll] = useState(false);
-
+  
   useEffect(() => {
     const handleScroll = () => {
       const scrollThreshold = window.innerHeight * 0.9; // 10% of viewport height
@@ -60,9 +60,11 @@ export const MeetsSome = () => {
       <div className="flex justify-between items-center text-center max-w-[1600px] m-auto text-white gap-11">
         <div
           className="flex space-x-20 min-w-full transition-transform duration-500"
-          style={{ transform: `translateX(${-scrollX}px)` }}
+          style={{
+            transform: `translateX(${(-scrollX % (250 * techPartners.length))}px)`,
+          }}
         >
-          {techPartners.map((partner, index) => (
+          {[...techPartners, ...techPartners].map((partner, index) => (
             <div key={index} className="text-center flex-shrink-0 w-[250px]">
               <p className="text-xl font-semibold text-white">{partner.name}</p>
               <div className="flex justify-center my-4">

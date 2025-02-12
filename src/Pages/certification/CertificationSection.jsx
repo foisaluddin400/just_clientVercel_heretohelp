@@ -34,17 +34,17 @@ export const CertificationSection = () => {
       <div className="flex justify-between items-center max-w-[1600px] m-auto gap-11">
         <div
           className="flex space-x-16 min-w-full transition-transform duration-500"
-          style={{ transform: `translateX(${-scrollX}px)` }}
+          style={{
+            transform: `translateX(${(-scrollX % (200 * certificationImages.length))}px)`,
+          }}
         >
-          {certificationImages.map((img, index) => (
+          {[...certificationImages, ...certificationImages].map((img, index) => (
             <div key={index} className="flex-shrink-0 w-[200px]">
               <img className="w-full" src={img} alt={`cert-${index}`} />
             </div>
           ))}
         </div>
       </div>
-
-      
     </div>
   );
 };

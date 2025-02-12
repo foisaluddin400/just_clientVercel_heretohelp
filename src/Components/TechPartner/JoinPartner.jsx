@@ -9,7 +9,7 @@ export const JoinPartner = () => {
           Send Partner Request
         </div>
       </div>
-      <div className="min-h-screen bg-gradient-to-r from-blue-700 to-blue-800 flex justify-center items-center">
+      <div className="min-h-screen bg-gradient-to-r from-[#06083f] via-[#000d74] to-[#06083f] opacity-95 flex justify-center items-center">
         <div className="bg-white p-8 rounded-lg shadow-lg w-full max-w-7xl m-auto my-11">
           {/* Personal Information Section */}
           <h2 className="text-2xl font-semibold text-gray-800 mb-6">
@@ -160,18 +160,20 @@ export const JoinPartner = () => {
               </Upload>
             </Form.Item>
 
-            <div>
+            
               <Form.Item>
-                <Button
+                <div className="flex justify-center">
+                <button
                   type="primary"
                   htmlType="submit"
                   block
-                  className="bg-[#2E4CB9] text-white py-6  "
+                  className="bg-[#2E4CB9] text-white py-3 px-7 rounded  "
                 >
                   Submit Your Request
-                </Button>
+                </button>
+                </div>
               </Form.Item>
-            </div>
+        
           </Form>
         </div>
       </div>

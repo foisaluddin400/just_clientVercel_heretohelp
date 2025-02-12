@@ -60,9 +60,15 @@ export const NewTicketPage = () => {
                 className="w-full bg-transparent p-3 border border-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
               >
                 <option className='text-black border-b'>Select Category</option>
-                <option className='text-black border-b'>Networking</option>
-                <option className='text-black border-b'>Hardware</option>
-                <option className='text-black border-b'>Software</option>
+                <option className='text-black border-b'>Structure Cabling(Copper And Fiver)</option>
+                <option className='text-black border-b'>Break/Fix Services</option>
+                <option className='text-black border-b'>Rack And Device Installation</option>
+                <option className='text-black border-b'>Network Migrations And Cutovers</option>
+                <option className='text-black border-b'>Site Surveys</option>
+                <option className='text-black border-b'>Consultations On Cutting-Edge Technologies</option>
+                <option className='text-black border-b'>Deployment Of New Network Devices</option>
+                <option className='text-black border-b'>Services Bundles And Maintenace</option>
+                <option className='text-black border-b'>Pricing Strategy And Transparency</option>
               </select>
             </div>
           </div>
