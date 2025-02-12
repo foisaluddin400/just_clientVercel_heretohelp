@@ -59,13 +59,12 @@ export const MeetTheVision = () => {
               {/* Card 1 */}
               <div
                 className="bg-[#DBE3EA] rounded-lg grid grid-cols-2"
-                onMouseEnter={() => setHoveredCard(1)} // Set hovered card to 1
-                onMouseLeave={() => setHoveredCard(null)} // Reset on mouse leave
+                 // Reset on mouse leave
               >
                 <div className="m-2">
                   <img
                     className="w-full h-full"
-                    src={hoveredCard === 1 ? img6 : img4} // Change image on hover
+                    src={img4} // Change image on hover
                     alt=""
                   />
                 </div>
@@ -87,13 +86,12 @@ export const MeetTheVision = () => {
               {/* Card 2 */}
               <div
                 className="bg-[#DBE3EA] rounded-lg grid grid-cols-2"
-                onMouseEnter={() => setHoveredCard(2)} // Set hovered card to 2
-                onMouseLeave={() => setHoveredCard(null)} // Reset on mouse leave
+                 // Reset on mouse leave
               >
                 <div className="m-2">
                   <img
                     className="w-full h-full"
-                    src={hoveredCard === 2 ? img6 : img5} // Change image on hover
+                    src={ img5} // Change image on hover
                     alt=""
                   />
                 </div>
