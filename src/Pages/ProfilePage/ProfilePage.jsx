@@ -118,7 +118,7 @@ const ProfilePage = () => {
                   <Form.Item
                     name="fullName"
                     label={
-                      <p className="text-[#919191] text-[16px] leading-5 font-normal">
+                      <p className="text-[black] text-[16px] leading-5 font-normal">
                         User Name
                       </p>
                     }
@@ -127,10 +127,10 @@ const ProfilePage = () => {
                       style={{
                         width: "100%",
                         height: 40,
-                        border: "1px solid #DCDDDE",
+                        border: "1px solid black",
                         borderRadius: "8px",
                         color: "#919191",
-                        backgroundColor: "#F6F6F6",
+                        backgroundColor: "#DBE3EA",
                         outline: "none",
                       }}
                       className="text-[16px] leading-5"
@@ -140,7 +140,7 @@ const ProfilePage = () => {
                   <Form.Item
                     name="email"
                     label={
-                      <p className="text-[#919191] text-[16px] leading-5 font-normal">
+                      <p className="text-[black] text-[16px] leading-5 font-normal">
                         Email
                       </p>
                     }
@@ -149,10 +149,10 @@ const ProfilePage = () => {
                       style={{
                         width: "100%",
                         height: 48,
-                        border: "1px solid #DCDDDE",
-                        backgroundColor: "#F6F6F6",
+                        border: "1px solid black",
                         borderRadius: "8px",
                         color: "#919191",
+                        backgroundColor: "#DBE3EA",
                         outline: "none",
                       }}
                       disabled
@@ -164,7 +164,7 @@ const ProfilePage = () => {
                   <Form.Item
                     name="mobileNumber"
                     label={
-                      <p className="text-[#919191] text-[16px] leading-5 font-normal">
+                      <p className="text-[black] text-[16px] leading-5 font-normal">
                         Contact Number
                       </p>
                     }
@@ -173,10 +173,10 @@ const ProfilePage = () => {
                       style={{
                         width: "100%",
                         height: 48,
-                        backgroundColor: "#F6F6F6",
-                        border: "1px solid #DCDDDE",
+                        border: "1px solid black",
                         borderRadius: "8px",
                         color: "#919191",
+                        backgroundColor: "#DBE3EA",
                         outline: "none",
                       }}
                       className="text-[16px] leading-5"
@@ -187,7 +187,7 @@ const ProfilePage = () => {
                   <Form.Item
                     name="fullName"
                     label={
-                      <p className="text-[#919191] text-[16px] leading-5 font-normal">
+                      <p className="text-[black] text-[16px] leading-5 font-normal">
                         Designation
                       </p>
                     }
@@ -196,10 +196,10 @@ const ProfilePage = () => {
                       style={{
                         width: "100%",
                         height: 40,
-                        border: "1px solid #DCDDDE",
+                        border: "1px solid black",
                         borderRadius: "8px",
                         color: "#919191",
-                        backgroundColor: "#F6F6F6",
+                        backgroundColor: "#DBE3EA",
                         outline: "none",
                       }}
                       className="text-[16px] leading-5"
@@ -209,7 +209,7 @@ const ProfilePage = () => {
                   <Form.Item
                     name="address"
                     label={
-                      <p className="text-[#919191] text-[16px] leading-5 font-normal">
+                      <p className="text-[black] text-[16px] leading-5 font-normal">
                         Address
                       </p>
                     }
@@ -218,10 +218,10 @@ const ProfilePage = () => {
                       style={{
                         width: "100%",
                         height: 48,
-                        backgroundColor: "#F6F6F6",
-                        border: "1px solid #DCDDDE",
+                        border: "1px solid black",
                         borderRadius: "8px",
                         color: "#919191",
+                        backgroundColor: "#DBE3EA",
                         outline: "none",
                       }}
                       className="text-[16px] leading-5"
@@ -263,7 +263,7 @@ const ProfilePage = () => {
                   <Form.Item
                     name="oldPassword"
                     label={
-                      <p className="text-[#415D71] text-sm leading-5">
+                      <p className="text-[black] text-sm leading-5">
                         Current Password
                       </p>
                     }
@@ -278,8 +278,8 @@ const ProfilePage = () => {
                       style={{
                         width: "100%",
                         height: "42px",
-                        border: "1px solid #DCDDDE",
-                        backgroundColor: "#F6F6F6",
+                        border: "1px solid black",
+                        backgroundColor: "#DBE3EA",
                         borderRadius: "8px",
                         color: "black",
                         outline: "none",
@@ -295,7 +295,7 @@ const ProfilePage = () => {
                       { required: true, message: "Please Enter New Password!" },
                     ]}
                     label={
-                      <p className="text-[#415D71] text-sm leading-5">
+                      <p className="text-[black] text-sm leading-5">
                         New Password
                       </p>
                     }
@@ -304,8 +304,8 @@ const ProfilePage = () => {
                       style={{
                         width: "100%",
                         height: "42px",
-                        border: "1px solid #DCDDDE",
-                        backgroundColor: "#F6F6F6",
+                        border: "1px solid black",
+                        backgroundColor: "#DBE3EA",
                         borderRadius: "8px",
                         color: "black",
                         outline: "none",
@@ -317,7 +317,7 @@ const ProfilePage = () => {
 
                   <Form.Item
                     label={
-                      <p className="text-[#415D71] text-sm leading-5">
+                      <p className="text-[black] text-sm leading-5">
                         Confirm Password
                       </p>
                     }
@@ -333,8 +333,8 @@ const ProfilePage = () => {
                       style={{
                         width: "100%",
                         height: "42px",
-                        border: "1px solid #DCDDDE",
-                        backgroundColor: "#F6F6F6",
+                        border: "1px solid black",
+                        backgroundColor: "#DBE3EA",
                         borderRadius: "8px",
                         color: "black",
                         outline: "none",
@@ -360,7 +360,7 @@ const ProfilePage = () => {
                         width: 197,
                         height: 48,
                         color: "#FFFFFF",
-                        background: "#272121",
+                        background: "#2E4CB9",
                       }}
                       className="font-normal text-[16px] leading-6 bg-primary"
                     >

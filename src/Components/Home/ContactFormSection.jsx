@@ -26,7 +26,7 @@ export const ContactFormSection = () => {
             Get Started With <br /> BETS Today
           </h2>
 
-          <div className="bg-white p-8 py-16 rounded-lg shadow-lg max-w-3xl w-full">
+          <div className="bg-[white] p-8 py-16 rounded-lg shadow-lg max-w-3xl w-full">
             <Form
               layout="vertical"
               onFinish={handleFinish}
@@ -40,7 +40,7 @@ export const ContactFormSection = () => {
                   { required: true, message: "Please enter your full name" },
                 ]}
               >
-                <Input placeholder="John Doe" />
+                <Input  placeholder="John Doe" />
               </Form.Item>
 
               {/* Contact Number & Email */}
@@ -112,13 +112,13 @@ export const ContactFormSection = () => {
               {/* Submit Button */}
               <Form.Item>
                 <Link to={'/new-ticket'}>
-                <Button
+                <button
                   type="primary"
                   htmlType="submit"
-                  className=" bg-[#2E4CB9] hover:bg-blue-600 text-white py-2 px-4 rounded-md"
+                  className=" bg-[#2E4CB9] hover:bg-gray-100 hover:text-blue-600 text-white py-2 px-4 rounded-md"
                 >
                   Send Inquiry
-                </Button></Link>
+                </button></Link>
               </Form.Item>
             </Form>
           </div>
