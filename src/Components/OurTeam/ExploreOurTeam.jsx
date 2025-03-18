@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import img2 from "../../assets/ourteam/cc.png";
 import img6 from "../../assets/ourteam/aaa.jpg";
-// import img3 from "../../assets/ourteam/team3.png";
+// import img3 from "../../assets/ourteam/team3.pg";
 export const ExploreOurTeam = () => {
 
   return (
